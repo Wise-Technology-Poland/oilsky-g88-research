@@ -1,0 +1,26 @@
+# Local MTK/readback output
+abstract.rtf
+~$*.rtf
+dump/
+dump_stock/super.bin
+mtkclient/dump/
+mtkclient/logs/
+_custom_rom/**
+debloat/out/
+
+
+# Python/runtime noise from bundled mtkclient
+__pycache__/
+*.pyc
+*.pyo
+
+# Large firmware archives or extracted images
+*.zip
+!modules/*.zip
+*.rar
+*.7z
+*.tar
+*.tgz
+*.xz
+*.lz4
+*.sparse

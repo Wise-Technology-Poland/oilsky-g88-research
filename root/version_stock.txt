@@ -1,0 +1,5 @@
+Model: Oilsky G88
+Android release: 12
+SDK: 31
+Build fingerprint: Win/Q9/Q9:10/QP1A.190711.020/13113:user/release-keys
+Vendor fingerprint: Win/Q9/Q9:10/QP1A.190711.020/13113:user/release-keys

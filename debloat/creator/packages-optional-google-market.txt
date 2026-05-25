@@ -1,0 +1,3 @@
+# Optional: remove Google Play Store / Market.
+# Not included in default debloat.
+com.android.vending

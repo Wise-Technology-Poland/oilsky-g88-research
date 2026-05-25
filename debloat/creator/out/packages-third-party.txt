@@ -1,0 +1,13 @@
+package:in.krosbits.musicolet
+package:com.mxtech.videoplayer.pro
+package:com.fiio.music
+package:com.amazon.mp3
+package:com.apple.android.music
+package:com.hiby.music
+package:com.aimp.player
+package:com.topjohnwu.magisk
+package:com.spotify.music
+package:com.aspiro.tidal
+package:com.audible.application
+package:deezer.android.app
+package:com.google.android.apps.youtube.music
