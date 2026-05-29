@@ -48,3 +48,7 @@ com.mediatek.MtkSettingsResOverlay
 com.mediatek.SettingsProviderResOverlay
 com.mediatek.systemuiresoverlay
 com.topjohnwu.magisk
+com.android.wallpaperpicker
+com.google.android.inputmethod.latin
+com.android.systemui
+com.android.launcher3
