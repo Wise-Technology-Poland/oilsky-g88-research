@@ -1,0 +1,6 @@
+id=oilsky_charge_limit_2a
+name=Oilsky Charge Limit 2A
+version=1.0
+versionCode=1
+author=Wise Technology Poland
+description=Limits supported Android/MTK charging current sysfs nodes to 2A at boot.

@@ -322,6 +322,20 @@ normally disabled or hidden on many generic Android builds. On this DAP it is
 intended to expose/use Hi-Res audio paths more reliably for compatible players
 and audio backends.
 
+The repository also contains a local charge-current limiter module:
+
+```text
+modules/Oilsky-Charge-Limit-2A.zip
+```
+
+The manufacturer does not recommend using fast chargers with this device. This
+module is intended as an additional conservative safeguard: during late boot it
+writes `2000000` uA to supported writable `/sys/class/power_supply/*`
+current-limit nodes, including the observed MTK master/slave charger paths, so
+the system-side charging current request is capped at 2A. It is not a substitute
+for using a safe 5V charger and does not guarantee that every charger IC path is
+limited.
+
 ## Credits
 
 - MTK readback and low-level tooling:
